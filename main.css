@@ -1,0 +1,42 @@
+:root {
+    font-family: "Uncut Sans";
+    font-size: 10px;
+    --nat-dark-gray: rgb(61, 60, 70);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(159, 255, 185, 1) 100%, rgba(165, 240, 255, 1) 100%);
+    height: 100%;
+}
+
+@font-face {
+    font-family: "Uncut Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/gh/kaspernordkvist/uncut_sans/Webfonts/Uncut-Sans-Regular.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/kaspernordkvist/uncut_sans/Webfonts/Uncut-Sans-Regular.woff") format("woff");
+    font-display: swap
+}
+
+body {
+    font-size: 1.8rem;
+    margin: 3em 3em 0 3em;
+    color: black;
+}
+
+.page-title {
+    color: var(--nat-dark-gray);
+    font-size: 1.96em;
+    padding-bottom: 0.2em;
+    margin-bottom: 0.2em;
+    border-bottom: 3px solid var(--nat-dark-gray);
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.title-text {
+    flex: auto;
+}
+
+.page-title img {
+    width: 12rem;
+    border-radius: 20px;
+}
